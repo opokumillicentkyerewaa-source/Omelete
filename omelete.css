@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: hsl(14, 45%, 36%);
+    --padding: 12px;
+    --margin: 1%;
+    --spacing: 20px;
+    --gray: hsl(0, 1%, 45%)
+}
+
+
+body, html {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    /* font-style: normal; */
+    padding: var(--padding);
+    font-weight: 200;
+}
+
+.image {
+    width: 100%;
+    height: 20rem;
+    border-radius: 15px;
+}
+
+.line {
+    color: var(--gray);
+    margin: var(--spacing) 0;
+}
+
+.hero-content h1 {
+    font-weight: 500;
+    font-size: 100;
+    text-transform: capitalize;
+    /* margin-bottom: var(--spacing);
+    margin-top: var(--spacing); */
+    margin: var(--spacing) 0;
+}
+
+.hero-content p {
+    font-weight: 500;
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 20px
+
+}
+
+.lists {
+    margin: var(--spacing) 0;
+    background-color: rgba(232, 154, 128, 0.121);
+    border-radius: 15px;
+    padding: var(--padding);
+}
+
+.lists h2 {
+    font-size: medium;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+}
+
+.lists .items {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lists .items li,.links {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray);
+    /* gap: 10px; */
+}
+
+.lists .items li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+
+.Inst h2, .links h2, .Nut h2, .lists h2 {
+    font-size: medium;
+}
+
+.Inst h2, .links h2, .Nut h2 {
+    color: var(--primary-color);
+}
+
+.values {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.nutable {
+    width: 40%;
+}
+
+.links .its{
+      margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.links >h2{
+    margin-bottom: 10px;
+     font-size: medium;
+
+}
+
+.links .its li::marker{
+    color:var(--primary-color);
+}
+.Inst >h2{
+   margin-bottom: 10px;
+     font-size: medium; 
+}
+
+.Inst .qwe{
+      margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Inst .qwe li::marker{
+    color:var(--primary-color);
+    font-weight: 400;
+}
+
+.Nut >h2{
+     margin-bottom: 10px;
+     font-size: medium; 
+}
+
+.anything {
+    margin-bottom: 1rem;
+}
+.Nut .nutable{
+       margin-left: 1rem;
+    gap: 1rem;
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-container {
+    max-width: 500px;
+}
+
+.main-container .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
