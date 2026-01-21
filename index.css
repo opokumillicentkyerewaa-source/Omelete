@@ -19,8 +19,12 @@ body, html {
     font-optical-sizing: auto;
     /* font-style: normal; */
     font-weight: 200;
-    background-color: hsla(33, 82%, 83%, 0.694);
+    background-color: hsla(33, 96%, 89%, 0.484);
 
+}
+
+body {
+    padding: 20px;
 }
 
 .container {
